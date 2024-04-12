@@ -17,4 +17,8 @@ public class CalcTest {
     void testSubtract(){
         assertEquals(1,newCalc.subtract(2,1));
     }
+    @Test
+    void testDivide(){
+        assertEquals(2,newCalc.divide(2,1));
+    }
 }

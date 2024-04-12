@@ -4,4 +4,8 @@ public class Calculator{
         int result=firstNum+secondNum;
         return result;
     }
+    public int subtract(int firstNum,int secondNum){
+        int result=firstNum-secondNum;
+        return result;
+    }
 }
